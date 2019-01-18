@@ -46,7 +46,7 @@ public class SignatureVerifier implements ISignatureVerify {
                     + "packageName=" + packageName + "; isReplace=" + isReplace + "; signatures=" + signatures + "; newSignatures=" + newSignatures);
         }
         // 自定义签名策略验证合法时需要返回true,否则返回false。
-        return true;
+        return false;
     }
 
 }
