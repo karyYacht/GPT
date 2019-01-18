@@ -38,6 +38,11 @@ public class MySerialData implements Serializable {
      * 值
      */
     public String value;
+    
+    /**
+     * 扩展
+     */
+    public String extra;
 
 }
 
